@@ -2,11 +2,8 @@
 using LAMP.Classes.M2_Data;
 using LAMP.Utilities;
 using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
-using System.Drawing.Design;
 using System.IO;
-using System.Numerics;
 using System.Windows.Forms;
 
 namespace LAMP.FORMS;

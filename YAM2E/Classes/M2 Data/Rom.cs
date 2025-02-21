@@ -3,10 +3,7 @@ using System.Text;
 using System.IO;
 using System.Collections.Generic;
 using LAMP.Classes.M2_Data;
-using System.Runtime.Intrinsics.Arm;
-using System.CodeDom;
 using System.Windows.Forms;
-using System.ComponentModel.Design;
 using System.Linq;
 using LAMP.Classes.M2_Data.GBC;
 

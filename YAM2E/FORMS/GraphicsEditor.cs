@@ -1,19 +1,11 @@
 ﻿using LAMP.Classes;
 using LAMP.Classes.M2_Data;
 using LAMP.Controls;
-using LAMP.Controls.Room;
 using LAMP.Utilities;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LAMP.FORMS;

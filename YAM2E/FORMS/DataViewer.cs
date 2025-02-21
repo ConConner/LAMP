@@ -3,7 +3,6 @@ using System.ComponentModel.Design;
 using System.Windows.Forms;
 using LAMP.Classes;
 using LAMP.Utilities;
-using LAMP.FORMS;
 
 namespace LAMP.FORMS;
 

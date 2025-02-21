@@ -1,7 +1,6 @@
 ﻿using System.Windows.Forms;
 using System.Drawing;
 using LAMP.Classes;
-using LAMP.Controls.Room;
 using System;
 
 namespace LAMP.Controls;

@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
-using LAMP.Classes;
-using LAMP.Classes.M2_Data;
-using System.Threading.Tasks;
-using System.CodeDom;
 using LAMP.Interfaces;
 
 namespace LAMP.Classes.M2_Data;

@@ -3,13 +3,7 @@ using LAMP.Classes.M2_Data.GBC;
 using LAMP.Controls;
 using LAMP.Utilities;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LAMP.FORMS

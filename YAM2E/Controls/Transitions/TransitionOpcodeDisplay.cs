@@ -1,13 +1,9 @@
 ﻿using LAMP.Classes;
-using LAMP.Classes.M2_Data;
-using LAMP.Controls;
 using LAMP.Controls.Other;
-using LAMP.FORMS;
 using LAMP.Interfaces;
 using LAMP.Properties;
 using LAMP.Utilities;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

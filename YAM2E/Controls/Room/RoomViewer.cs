@@ -3,8 +3,6 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using LAMP.Classes;
-using System.Security.Cryptography;
-using LAMP.Controls.Room;
 using System;
 
 namespace LAMP.Controls;

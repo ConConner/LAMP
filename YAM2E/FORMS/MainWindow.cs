@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
@@ -9,18 +8,8 @@ using LAMP.Controls;
 using LAMP.Classes.M2_Data;
 using System.Collections.Generic;
 using LAMP.Utilities;
-using LAMP.Controls.Room;
-using System.Linq;
-using Microsoft.VisualBasic.Devices;
 using LAMP.Controls.Other;
-using System.Windows.Forms.VisualStyles;
-using System.Text.RegularExpressions;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
-using System.CodeDom;
-using System.ComponentModel.Design;
 using LAMP.Actions;
-using LAMP.Interfaces;
-using Action = LAMP.Interfaces.IAction;
 using System.Text.Json;
 
 namespace LAMP;

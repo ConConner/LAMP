@@ -1,15 +1,9 @@
 ﻿using LAMP.Classes;
 using LAMP.Utilities;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace LAMP.FORMS;
 
@@ -115,10 +109,10 @@ public partial class ProjectSettings : Form
 
     private void btn_select_disassembly_Click(object sender, EventArgs e)
     {
-        using (FolderBrowserDialog fbd = new FolderBrowserDialog())
+        using (CommonOpenFileDialog ofd = new CommonOpenFileDialog() { IsFolderPicker = true })
         {
-            if (fbd.ShowDialog() == DialogResult.OK && fbd.SelectedPath != String.Empty)
-                txb_disassembly_path.Text = fbd.SelectedPath;
+            if (ofd.ShowDialog() == CommonFileDialogResult.Ok)
+                txb_disassembly_path.Text = ofd.FileName;
         }
     }
 }

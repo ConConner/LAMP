@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-
-namespace LAMP.Interfaces;
+﻿namespace LAMP.Interfaces;
 
 /// <summary>
 /// This interface requires an implementation where a given File can be used to do an operation.

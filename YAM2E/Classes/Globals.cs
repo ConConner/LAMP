@@ -2,13 +2,8 @@
 using System.Drawing;
 using LAMP.Classes;
 using LAMP.Classes.M2_Data;
-using System;
-using System.Windows.Forms;
 using System.Linq;
-using System.Security.Cryptography;
-using LAMP.Controls.Transitions;
 using System.Text.Json;
-using LAMP.Interfaces;
 
 namespace LAMP;
 
